@@ -1,0 +1,55 @@
+:root{
+
+}
+
+.logo {
+    color: #2E2F42;
+    font-family: Raleway;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.accent {
+    color: #4D5AE5;
+}
+
+.nav-item {
+    color: #2E2F42;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.nav-item:hover,
+.nav-item:focus {
+    color: #404BBF;
+    text-decoration: underline;
+    
+}
+
+.adr-item {
+    color: #434455;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    text-decoration: none;
+}
+
+.adr-item:hover,
+.adr-item:focus {
+    color: #404BBF;
+}
+
+
