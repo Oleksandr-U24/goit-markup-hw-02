@@ -1,3 +1,14 @@
+/* body */
+.body-settings {
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.32px;
+    color: #434455;
+    max-width: 1440px;
+    background-color: #FFF;
+}
+
+/* header */
 .logo {
     color: #2E2F42;
     font-family: Raleway;
@@ -48,4 +59,63 @@
     color: #404BBF;
 }
 
+/* main */
 
+
+/* section 1 (hero) */
+.hero-section {
+    background: #2E2F42;
+    width: 1440px;
+}
+
+.hero-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+
+}
+
+.hero-button {
+    cursor: pointer;
+    background: #4D5AE5;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.64px;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
+}
+
+.title {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+
+.subtitle {
+    color: #2E2F42;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.4px;      
+}
