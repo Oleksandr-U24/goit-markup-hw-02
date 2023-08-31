@@ -12,6 +12,7 @@
 .body-set {
     font-family: Roboto, sans-serif;
     color: var(--c-body-text);
+    background-color: var(--c-white);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -28,11 +29,11 @@ button {
 
 /* Header */
 .logo {
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     color: var(--c-pr-brand);
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
@@ -58,11 +59,15 @@ button {
     text-decoration: underline;
 }
 
+.adr {
+   font-style: normal;
+}
+
 .adr-item {
     color: var(--c-body-text);
     font-style: normal;
     font-weight: 400;
-    text-decoration: none;
+    text-decoration: none;    
 }
 
 .adr-item:hover,
@@ -76,7 +81,6 @@ button {
 /* Hero Section */
 .hero-section {
     background: var(--c-navy-blue);
-    width: 1440px;
 }
 
 .hero-title {
@@ -103,6 +107,14 @@ button {
     background-color: var(--c-pr-state);
 }
 
+.team-section {
+    background-color: var(--c-white-cloud);
+}
+
+.team-unit {
+    background-color: var(--c-white);
+}
+
 .sect-title {
     color: var(--c-navy-blue);
     font-size: 36px;
@@ -120,6 +132,10 @@ button {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-transform: capitalize;      
+}
+
+.sect-text {
+    font-size: 16px;
 }
 /* Main END */
 
