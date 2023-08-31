@@ -4,7 +4,7 @@
     --c-navy-blue: #2E2F42;
     --c-body-text: #434455;
     --c-white: #fff;
-    
+    --c-white-cloud: #F4F4FD;
     
 }
 
@@ -25,10 +25,11 @@ ul {
 button {
     font-family: inherit;
 }
+
 /* Header */
 .logo {
     font-family: Raleway;
-    color: var(--c-navy-blue);
+    color: var(--c-pr-brand);
     font-size: 18px;
     font-weight: 700;
     line-height: 1.16;
@@ -38,7 +39,11 @@ button {
 }
 
 .logo-accent {
-    color: var(--c-pr-brand);
+    color: var(--c-navy-blue);
+}
+
+.logo-accent-ft {
+    color: var(--c-white-cloud);
 }
 
 .nav-item {
@@ -98,25 +103,32 @@ button {
     background-color: var(--c-pr-state);
 }
 
-.title {
-    color: #2E2F42;
-    text-align: center;
-    font-family: Roboto;
+.sect-title {
+    color: var(--c-navy-blue);
     font-size: 36px;
-    font-style: normal;
     font-weight: 700;
     line-height: 1.11;
-    letter-spacing: 0.72px;
+    letter-spacing: 0.02em;
+    text-align: center;
     text-transform: capitalize;
 }
 
-.subtitle {
-    color: #2E2F42;
-    text-align: center;
-    font-family: Roboto;
+.sect-subtitle {
+    color: var(--c-navy-blue);
     font-size: 20px;
-    font-style: normal;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.4px;      
+    letter-spacing: 0.02em;
+    text-transform: capitalize;      
+}
+/* Main END */
+
+/* Footer */
+.footer-sect {
+    background-color: var(--c-navy-blue);
+    width: 1440px;    
+}
+
+.footer-text {
+    color: var(--c-white-cloud);
 }
