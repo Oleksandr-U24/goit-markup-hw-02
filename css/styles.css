@@ -32,7 +32,6 @@ button {
     font-family: Raleway, sans-serif;
     color: var(--c-pr-brand);
     font-size: 18px;
-    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -59,14 +58,9 @@ button {
     text-decoration: underline;
 }
 
-.adr {
-   font-style: normal;
-}
-
 .adr-item {
     color: var(--c-body-text);
     font-style: normal;
-    font-weight: 400;
     text-decoration: none;    
 }
 
@@ -87,7 +81,6 @@ button {
     color: var(--c-white);
     text-align: center;
     font-size: 56px;
-    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
 
@@ -118,7 +111,6 @@ button {
 .sect-title {
     color: var(--c-navy-blue);
     font-size: 36px;
-    font-weight: 700;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
