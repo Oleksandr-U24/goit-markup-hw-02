@@ -32,6 +32,7 @@ button {
     font-family: Raleway, sans-serif;
     color: var(--c-pr-brand);
     font-size: 18px;
+    font-weight: 700;
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -56,6 +57,10 @@ button {
 .nav-item:focus {
     color: var(--c-pr-state);
     text-decoration: underline;
+}
+
+.adr {
+    font-style: normal;
 }
 
 .adr-item {
